@@ -8,7 +8,7 @@ import RocketPage from './components/rocket/RocketPage';
 function App() {
   return (
     <BrowserRouter>
-      <div className='main-container'>
+      <div className="main-container">
         <Header />
         <Routes>
           <Route path="/" element={<RocketPage />} />

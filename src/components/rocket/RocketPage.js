@@ -1,7 +1,5 @@
 import React from 'react';
 
-const RocketPage = () => {
-  return <div>RocketPage</div>;
-};
+const RocketPage = () => <div>RocketPage</div>;
 
 export default RocketPage;

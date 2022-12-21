@@ -1,7 +1,5 @@
 import React from 'react';
 
-const MissionPage = () => {
-  return <div>MissionPage</div>;
-};
+const MissionPage = () => <div>MissionPage</div>;
 
 export default MissionPage;
