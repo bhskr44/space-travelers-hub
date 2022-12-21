@@ -7,7 +7,8 @@ const header = () => {
   return (
     <div className="nav-container">
       <div className="logo">
-        <img src={logo} alt="logo" />
+        <img className='logo-img' src={logo} alt="logo" />
+        <h1>Space Travelers' Hub</h1>
       </div>
       <nav className="navbar">
         <NavLink to="/">Rockets</NavLink>
