@@ -1,8 +1,16 @@
+header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  margin-bottom: 15px;
+}
+
 .nav-container {
+  width: 80%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 15px;
 }
 
 .logo {
@@ -13,6 +21,7 @@
 .main-container {
   width: 80%;
   margin: 0 auto;
+  padding-top: 110px;
 }
 
 .logo-img {
@@ -54,6 +63,7 @@ nav a.active {
   padding: 5px;
   margin: 5px;
   border-radius: 5px;
+  font-size: 12px;
 }
 
 .reserve-btn {
@@ -76,4 +86,19 @@ nav a.active {
 
 .reserve-btn:hover {
   background-color: #57a9e7;
+}
+
+.profile-div {
+  border-top: 1px solid #d3d3d3;
+}
+
+.profile-rockets-div {
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+}
+
+.profile-rockets {
+  border-bottom: 1px solid #d3d3d3;
+  margin: 0;
+  padding: 10px;
 }
