@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 15px;
 }
 
 .logo {
@@ -10,7 +11,7 @@
 }
 
 .main-container {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -28,4 +29,32 @@ nav a {
 
 nav a.active {
   color: blue;
+}
+
+.rocket-list {
+  border-top: 1px solid #d3d3d3;
+  padding-top: 30px;
+}
+
+.rocket-div {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.rocket-img {
+  height: 300px;
+  width: 400px;
+  margin-right: 20px;
+}
+
+.reserve-btn {
+  background-color: #0290ff;
+  border: none;
+  padding: 1rem;
+  color: white;
+  border-radius: 5px;
+}
+
+.reserve-btn:hover {
+  background-color: #57a9e7;
 }
