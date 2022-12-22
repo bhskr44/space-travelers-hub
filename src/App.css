@@ -47,12 +47,31 @@ nav a.active {
   margin-right: 20px;
 }
 
+.reserved-tag {
+  display: inline-block;
+  background-color: rgb(27, 125, 170);
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
 .reserve-btn {
   background-color: #0290ff;
   border: none;
   padding: 1rem;
   color: white;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel-reservation {
+  background-color: white;
+  border: 1px solid #d3d3d3;
+  padding: 1rem;
+  color: gray;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .reserve-btn:hover {
