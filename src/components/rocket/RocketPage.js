@@ -8,8 +8,10 @@ const RocketPage = () => {
   const rockets = useSelector((state) => state.rockets.rockets);
 
   useEffect(() => {
-    dispatch(getRockets());
-  }, []);
+    if (rockets.length === 0) {
+      dispatch(getRockets());
+    }
+  }, [dispatch, rockets.length]);
 
   return (
     <div>
