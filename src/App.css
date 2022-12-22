@@ -1,8 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@300;400;600&family=Poppins:wght@300;400;600;800&family=Roboto+Slab:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Roboto Slab', serif;
+  background-color: #eee;
+}
+
+p {
+  font-size: 14px;
+  color: #555;
+}
+
 header {
   position: fixed;
   width: 100%;
   background-color: white;
   margin-bottom: 15px;
+  background-color: #eee;
 }
 
 .nav-container {
@@ -30,14 +43,20 @@ header {
   margin-right: 15px;
 }
 
+.logo h1 {
+  color: #00ce89;
+}
+
 nav a {
   margin-left: 30px;
   text-decoration: none;
-  color: black;
+  color: #00ce89;
+  /* color: #555; */
+
 }
 
 nav a.active {
-  color: blue;
+  text-decoration: underline;
 }
 
 .rocket-list {
@@ -47,7 +66,9 @@ nav a.active {
 
 .rocket-div {
   display: flex;
+  /* align-items: center; */
   margin-bottom: 40px;
+  /* background-color: white; */
 }
 
 .rocket-img {
@@ -58,7 +79,7 @@ nav a.active {
 
 .reserved-tag {
   display: inline-block;
-  background-color: rgb(27, 125, 170);
+  background-color: #e90074;
   color: white;
   padding: 5px;
   margin: 5px;
@@ -67,9 +88,9 @@ nav a.active {
 }
 
 .reserve-btn {
-  background-color: #0290ff;
+  background-color: #e90074;
   border: none;
-  padding: 1rem;
+  padding: .7rem;
   color: white;
   border-radius: 5px;
   cursor: pointer;
@@ -78,14 +99,14 @@ nav a.active {
 .cancel-reservation {
   background-color: white;
   border: 1px solid #d3d3d3;
-  padding: 1rem;
+  padding: .6rem;
   color: gray;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .reserve-btn:hover {
-  background-color: #57a9e7;
+  background-color: #eb3e94;
 }
 
 .profile-div {
