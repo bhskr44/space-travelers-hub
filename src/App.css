@@ -13,7 +13,6 @@ p {
 header {
   position: fixed;
   width: 100%;
-  background-color: white;
   margin-bottom: 15px;
   background-color: #eee;
 }
@@ -51,8 +50,8 @@ nav a {
   margin-left: 30px;
   text-decoration: none;
   color: #00ce89;
-  /* color: #555; */
 
+  /* color: #555; */
 }
 
 nav a.active {
@@ -66,8 +65,10 @@ nav a.active {
 
 .rocket-div {
   display: flex;
+
   /* align-items: center; */
   margin-bottom: 40px;
+
   /* background-color: white; */
 }
 
@@ -90,7 +91,7 @@ nav a.active {
 .reserve-btn {
   background-color: #e90074;
   border: none;
-  padding: .7rem;
+  padding: 0.7rem;
   color: white;
   border-radius: 5px;
   cursor: pointer;
@@ -99,7 +100,7 @@ nav a.active {
 .cancel-reservation {
   background-color: white;
   border: 1px solid #d3d3d3;
-  padding: .6rem;
+  padding: 0.6rem;
   color: gray;
   border-radius: 5px;
   cursor: pointer;
