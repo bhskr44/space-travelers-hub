@@ -124,3 +124,40 @@ nav a.active {
   margin: 0;
   padding: 10px;
 }
+
+/* Css for Missions */
+.not-member {
+  background-color: #555;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.active-member {
+  background-color: #00ce89;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.join-mission {
+  background-color: transparent;
+  border: 1px solid #555;
+  color: #555;
+  border-radius: 4px;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.leave-mission {
+  background-color: transparent;
+  border: 1px solid #e90074;
+  color: #e90074;
+  border-radius: 4px;
+  padding: 0.5rem;
+  cursor: pointer;
+}
