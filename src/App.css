@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@300;400;600&family=Poppins:wght@300;400;600;800&family=Roboto+Slab:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Roboto Slab', serif;
+  background-color: #eee;
+}
+
+p {
+  font-size: 14px;
+  color: #555;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  margin-bottom: 15px;
+  background-color: #eee;
+}
+
+.nav-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.main-container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 110px;
+}
+
+.logo-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+
+.logo h1 {
+  color: #00ce89;
+}
+
+nav a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #00ce89;
+
+  /* color: #555; */
+}
+
+nav a.active {
+  text-decoration: underline;
+}
+
+.rocket-list {
+  border-top: 1px solid #d3d3d3;
+  padding-top: 30px;
+}
+
+.rocket-div {
+  display: flex;
+
+  /* align-items: center; */
+  margin-bottom: 40px;
+
+  /* background-color: white; */
+}
+
+.rocket-img {
+  height: 300px;
+  width: 400px;
+  margin-right: 20px;
+}
+
+.reserved-tag {
+  display: inline-block;
+  background-color: #e90074;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.reserve-btn {
+  background-color: #e90074;
+  border: none;
+  padding: 0.7rem;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel-reservation {
+  background-color: white;
+  border: 1px solid #d3d3d3;
+  padding: 0.6rem;
+  color: gray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reserve-btn:hover {
+  background-color: #eb3e94;
+}
+
+.profile-rockets-div {
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+}
+
+.profile-rockets {
+  border-bottom: 1px solid #d3d3d3;
+  margin: 0;
+  padding: 10px;
+}
+
+/* Css for Missions */
+.not-member {
+  background-color: #555;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 05px 15px;
+}
+
+.active-member {
+  background-color: #00ce89;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 05px 15px;
+}
+
+.join-mission {
+  background-color: transparent;
+  border: 1px solid #555;
+  color: #555;
+  border-radius: 4px;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.leave-mission {
+  background-color: transparent;
+  border: 1px solid #e90074;
+  color: #e90074;
+  border-radius: 4px;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.profile-div {
+  border-top: 1px solid #d3d3d3;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dislay-table {
+  width: 400px;
+}
+
+.mission-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #d3d3d3;
+}
+
+td,
+th {
+  border: 1px solid #d3d3d3;
+  text-align: center;
+}
+
+thead {
+  border: 1px solid #d3d3d3;
+}
+
+.td-description {
+  width: 50%;
+}
+
+.td-button {
+  width: 20%;
+}
+
+.td-status {
+  width: 15%;
+}
+
+.td-name {
+  width: 15%;
+}
+
+.table-description {
+  text-align: left;
+  padding: 10px;
+}
