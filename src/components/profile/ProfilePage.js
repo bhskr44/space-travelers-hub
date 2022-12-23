@@ -1,5 +1,10 @@
 import React from 'react';
+import OptRocket from './OptRocket';
 
-const Profilepage = () => <div>Profilepage</div>;
+const ProfilePage = () => (
+  <div className="profile-div">
+    <OptRocket />
+  </div>
+);
 
-export default Profilepage;
+export default ProfilePage;
