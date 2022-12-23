@@ -110,10 +110,6 @@ nav a.active {
   background-color: #eb3e94;
 }
 
-.profile-div {
-  border-top: 1px solid #d3d3d3;
-}
-
 .profile-rockets-div {
   border: 1px solid #d3d3d3;
   border-radius: 5px;
@@ -133,6 +129,7 @@ nav a.active {
   border: none;
   font-size: 12px;
   cursor: pointer;
+  padding: 05px 15px;
 }
 
 .active-member {
@@ -142,6 +139,7 @@ nav a.active {
   border: none;
   font-size: 12px;
   cursor: pointer;
+  padding: 05px 15px;
 }
 
 .join-mission {
@@ -160,4 +158,51 @@ nav a.active {
   border-radius: 4px;
   padding: 0.5rem;
   cursor: pointer;
+}
+
+.profile-div {
+  border-top: 1px solid #d3d3d3;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dislay-table {
+  width: 400px;
+}
+
+.mission-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #d3d3d3;
+}
+
+td,
+th {
+  border: 1px solid #d3d3d3;
+  text-align: center;
+}
+
+thead {
+  border: 1px solid #d3d3d3;
+}
+
+.td-description {
+  width: 50%;
+}
+
+.td-button {
+  width: 20%;
+}
+
+.td-status {
+  width: 15%;
+}
+
+.td-name {
+  width: 15%;
+}
+
+.table-description {
+  text-align: left;
+  padding: 10px;
 }

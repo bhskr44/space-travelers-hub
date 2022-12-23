@@ -19,7 +19,7 @@ const Mission = ({ mission }) => {
       <td>
         <h3>{mission.mission_name}</h3>
       </td>
-      <td>{mission.description}</td>
+      <td className="table-description">{mission.description}</td>
       <td>
         {mission.reserved ? (
           <button type="button" className="active-member">
@@ -40,7 +40,7 @@ const Mission = ({ mission }) => {
               handleCancelMission(mission.mission_id);
             }}
           >
-            leave Mission
+            Leave Mission
           </button>
         ) : (
           <button
