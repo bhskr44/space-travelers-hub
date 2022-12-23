@@ -110,10 +110,6 @@ nav a.active {
   background-color: #eb3e94;
 }
 
-.profile-div {
-  border-top: 1px solid #d3d3d3;
-}
-
 .profile-rockets-div {
   border: 1px solid #d3d3d3;
   border-radius: 5px;
@@ -165,6 +161,7 @@ nav a.active {
 }
 
 .profile-div {
+  border-top: 1px solid #d3d3d3;
   display: flex;
   justify-content: space-around;
 }
